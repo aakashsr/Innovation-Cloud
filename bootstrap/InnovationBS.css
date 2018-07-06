@@ -1,0 +1,114 @@
+header{
+	height: 760px;
+	background-image:url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg);
+	background-size: cover;
+}
+
+p, .btn-dark{
+	font-weight: 100;
+}
+
+#tag-line{
+	font-size: 3.8em;
+	font-weight: 400;
+}
+
+#title{
+	font-size: .75em;
+	letter-spacing: .4em;
+	font-weight: 400;
+}
+
+.nav{
+	height: 46px;
+	background-color: #000;
+}
+
+.nav a{
+	color: #fff;
+	font-weight: 200;
+}
+
+.container .col-md-8 h2{
+	color: #000;
+	font-weight: 600;
+	letter-spacing:-1.5px;
+}
+
+.newsletter{
+	height: 600px;
+	background-image:url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg);
+	background-size: cover;
+	color: #fff;
+}
+
+.btn-dark{
+	background-color: #000;
+	border-radius: 0;
+	padding: 4px 22px;
+}
+
+.newsletter{
+		position: relative;
+	}
+
+	.newsletter .container{
+		position: absolute;
+		top: 12%;
+		right: 7%;
+	}
+
+footer{
+	height: 65px;
+	background-color: #000;
+	color: white;
+}
+
+@media(min-width: 540px){
+	/*#tag-line{
+		font-size: 4.5em;
+		font-weight: 600;
+	}*/
+}
+
+
+
+@media(min-width: 768px){
+	
+	main .container{
+		height: 320px;
+	}
+
+	#tag-line{
+		font-size: 4.5em;
+	}
+
+	#title{
+		font-size: 1em;
+		letter-spacing: .4em;
+		font-weight: 600;
+	}
+
+	.nav .nav-link{
+		margin-left: 2.5em;
+	}
+
+	.newsletter .container{
+		top: 25%;
+		right: 20%;
+	}
+
+	.newsletter .container .mt-5{
+		font-weight: 700;
+	}
+}
+
+@media(min-width: 1040px){
+	#tag-line{
+		font-size: 6em;
+		font-weight: 700;
+	}
+}
+
+
+
